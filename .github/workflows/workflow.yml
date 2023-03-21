@@ -1,1 +1,2 @@
+name: CI Pipeline (DOC1)on:#Manually trigger workflow runsworkflow_dispatch:#Trigger the workflow on push from the master/main branchpush:branches: [ master]jobs:# Build jobbuild:
 
