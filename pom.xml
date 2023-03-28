@@ -33,6 +33,7 @@
     </dependencies>
 
     <build>
+    <defaultGoal>jar</defaultGoal>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
