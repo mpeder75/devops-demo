@@ -55,7 +55,7 @@ run: mvn -B test
           cache: 'maven'   
       # Build the application using Maven
       - name: Build with Maven
-        run: mvn -B package -DskipTests--file pom.xml
+        run: mvn -B package -DskipTests --file pom.xml
       - run: mkdir staging && cp target/*.jar staging
       #Upload the jar artifact
       - name: Upload JAR Artifact
@@ -66,3 +66,4 @@ run: mvn -B test
           name: RunnableJar 
           #From this path
           path: staging
+
